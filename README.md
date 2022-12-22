@@ -19,7 +19,14 @@
 </ul>
 
 ## 📃 Table of Contents:
-  - [TBD](#-TBD)
+  - [Team Members](#-team-members)
+  - [TOC](#-table-of-contents)
+  - [About Repository](#-about-repository)
+  - [Project Background](#-project-background)
+  - [Datasets](#-datasets)
+  - [Model Results](#-model-results)
+    - [Summary of Model 1](#-summary-of-gaussian-naive-bayes)
+    - [Summary of Model 2](#-summary-of-xgboost)
 
 ## 🖋 About Repository:
 👉 This repository is the **Mayo team's submission of answers for the UN Youth Hackathon 2022**. This repository includes **Jupyter notebooks, presentation files, and raw & cleaned datasets**. The topic is the **rise of food & energy prices that affect poverty and hunger in Malawi**.
