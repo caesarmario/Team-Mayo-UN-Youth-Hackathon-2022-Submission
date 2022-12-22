@@ -51,7 +51,7 @@
 ### ▶ Summary of XGBoost
 <p align="center"><img src="https://i.imgur.com/VG11u78.png" width="50%"></p>
 <ul>
-  <li>XGBoost model has a recall of 0.694 and precision of 0.585 for the food insecure class. This means out of the 1448 food insecure households, the model have predicted 69.4% of them as food insecure ; and out of the 1719 households predicted as insecure, 58.5% of the households are truly food insecure.</li>
+  <li>XGBoost model has a recall of 0.694 and precision of 0.585 for the food insecure class. This means out of the 1448 food insecure households, the model have predicted 69.4% of them as food insecure; and out of the 1719 households predicted as insecure, 58.5% of the households are truly food insecure.</li>
   <li>The ROC AUC for food insecure class is 0.69 which means the diagnostic ability of the model is acceptable.</li>
 </ul>
 
@@ -61,3 +61,4 @@
 
 ## 🙌 Support Us!
 👉 If you find this project useful, **please ⭐ this repository 😆**!
+
