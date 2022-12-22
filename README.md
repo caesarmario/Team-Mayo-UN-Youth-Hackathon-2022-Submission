@@ -8,9 +8,6 @@
   <a href="https://linktr.ee/caesarmario_">
     <img src="https://img.shields.io/badge/Follow%20My%20Other%20Works-019875?style=flat&labelColor=019875&link=https:/linktr.ee/caesarmario_" alt="Linktree"/>
   </a>
-  <a href="https://www.kaggle.com/caesarmario/91-eligibility-prediction-w-various-ml-models">
-    <img src="https://img.shields.io/badge/-Similar%20Works%20on%20Kaggle-teal?style=flat&logo=kaggle&logoColor=deepblue&link=https://www.kaggle.com/caesarmario/91-eligibility-prediction-w-various-ml-models" alt="Similar Works"/>
-  </a>
 </p><br>
 
 ## 👥 Team Members
@@ -35,7 +32,24 @@
 - Malawi Integrated Household Panel Survey 2010 2013 2016 2019 (Long Term Panel, 102 EAs) from **World Bank Microdata Library**
 
 ## 👀 Model Results
-👉 
+👉 After going through the **data preprocessing, EDA, and feature selection**, the cleaned dataset will be entered into **two machine learning models**, which are **gaussian naive Bayes and XGBoost**.
+
+### ▶ Summary of Gaussian Naive Bayes
+<p align="center"><img src="https://i.imgur.com/GV4ou0u.png" width="50%"></p>
+<ul>
+  <li>GaussianNB model has a recall of 0.796 and precision of 0.583 for the food insecure class. This means out of the 1448 food insecure households, the model have predicted 79.6% of them as food insecure ; and out of the 1977 households predicted as insecure, 58.3% of the households are truly food insecure.</li>
+  <li>The ROC AUC for food insecure class is 0.71 which means the diagnostic ability of the model is acceptable.</li>
+</ul>
+
+### ▶ Summary of XGBoost
+<p align="center"><img src="https://i.imgur.com/VG11u78.png" width="50%"></p>
+<ul>
+  <li>XGBoost model has a recall of 0.694 and precision of 0.585 for the food insecure class. This means out of the 1448 food insecure households, the model have predicted 69.4% of them as food insecure ; and out of the 1719 households predicted as insecure, 58.5% of the households are truly food insecure.</li>
+  <li>The ROC AUC for food insecure class is 0.69 which means the diagnostic ability of the model is acceptable.</li>
+</ul>
+
+<br><p align="center"><img src="https://i.imgur.com/Sf9pt30.png" width="70%"><br><i>Food Insecurity Ranking from Two Models</i></p>
+
 ---
 
 ## 🙌 Support Us!
