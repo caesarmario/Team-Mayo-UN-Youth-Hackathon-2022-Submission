@@ -60,5 +60,5 @@
 ---
 
 ## 🙌 Support Us!
-👉 If you find this project useful, **please ⭐ this repository 😆**!
+👉 If you find this project useful  **please ⭐ this repository 😆**!
 
